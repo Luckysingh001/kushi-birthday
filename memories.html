@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kushi's Photo Story</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="memory-page">
+    <header class="nav"><a href="index.html" class="brand">Kushi's night ✦</a><a href="finale.html">Skip to the big finish →</a></header>
+    <main class="page-shell gallery-shell">
+      <p class="eyebrow">Chapter two: her favourite scenes</p>
+      <h1 class="display-title">The world looks better<br /><span>with Kushi in it.</span></h1>
+      <div class="upload-panel">
+        <label for="photoUpload" class="upload-label"><strong>Add Kushi's photos</strong><span>Choose up to 6 pictures. They stay in this browser only.</span></label>
+        <input id="photoUpload" type="file" accept="image/*" multiple />
+        <button id="clearPhotos" type="button" class="text-button">Remove uploaded photos</button>
+      </div>
+      <section class="photo-grid" id="photoGrid" aria-live="polite">
+        <figure class="photo-slot tall"><div class="placeholder-art art-one">K</div><figcaption>main character energy</figcaption></figure>
+        <figure class="photo-slot"><div class="placeholder-art art-two">✦</div><figcaption>one of a kind</figcaption></figure>
+        <figure class="photo-slot"><div class="placeholder-art art-three">♥</div><figcaption>full of sunshine</figcaption></figure>
+        <figure class="photo-slot wide"><div class="placeholder-art art-four">KUSHI</div><figcaption>the memory we keep replaying</figcaption></figure>
+        <figure class="photo-slot"><div class="placeholder-art art-five">☺</div><figcaption>happiness looks good here</figcaption></figure>
+        <figure class="photo-slot"><div class="placeholder-art art-six">✿</div><figcaption>made of magic</figcaption></figure>
+      </section>
+      <a class="button button-primary" href="finale.html">One last surprise →</a>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
